@@ -1,0 +1,84 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #333;
+    color: hsl(198, 11%, 77%);
+    max-width: 70vw;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+
+  .main-title {
+    font-size: 3vw;
+  }
+
+  .sub-title {
+    font-size: 2vw;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .quest-manager {
+    font-size:2em;
+  }
+
+  #input-quest-name {
+    border: solid;
+  }
+
+  #input-quest-description {
+    height: 100px;
+    border: solid;
+  }
+
+  .input-error, .backend-error {
+    color: red;
+  }
+
+  .button {
+    background: hsla(49, 83%, 24%, 0.1);
+    border: 1px solid hsl(48, 84%, 47%);
+    color: hsl(0, 0%, 100%);
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .quest-button {
+    width: 5rem;
+    height: 2rem;
+    margin: 0.2rem;
+  }
+
+  li {
+    color: yellow;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    background-color: #d4cab5;
+    color: black;
+    padding: 20px;
+    height: 10vw;
+    width: 14vw;
+    word-wrap: normal;
+
+    border: solid;
+    border-color: yellow;
+  }
